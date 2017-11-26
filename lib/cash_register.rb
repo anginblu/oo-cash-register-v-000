@@ -14,8 +14,7 @@ attr_accessor :total, :discount
   end
 
   def cash_register_with_discount
-    discount = Discount.new(20)
-    cash_register = CashRegister.new
+    cash_register = CashRegister.new(20)
     cash_register.discount = 20
   end
 
