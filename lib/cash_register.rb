@@ -21,4 +21,6 @@ attr_accessor :total, :discount
 
   def add_item(title, price)
 
+  end
+
 end
