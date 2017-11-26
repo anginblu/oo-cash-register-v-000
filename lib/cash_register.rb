@@ -1,9 +1,4 @@
-class Discount
-  attr_accessor :discount
-  def initialize(number = 0)
-    @discount = number
-  end
-end
+
 
 class CashRegister
 
