@@ -22,7 +22,7 @@ attr_accessor :total, :discount
   def add_item(title, price, quantity = 1)
     @total += price * quantity
     count = 1
-    while quantity > count
+    until quantity > count
       @items << title
       count += 1
     end
