@@ -33,4 +33,8 @@ attr_accessor :total, :discount
     end
   end
 
+  def items
+    @items
+  end
+
 end
