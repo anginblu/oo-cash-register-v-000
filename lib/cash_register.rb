@@ -21,7 +21,11 @@ attr_accessor :total, :discount
 
   def add_item(title, price, quantity = 1)
     @total += price * quantity
+    count = 1
+    until quantity == count
     @items << title
+    count += 1
+  end
   end
 
   def apply_discount
