@@ -1,7 +1,7 @@
 class Discount
   attr_accessor :discount
   def initialize(number = 0)
-    @discount = discount
+    @discount = number
   end
 end
 
