@@ -25,7 +25,7 @@ attr_accessor :total, :discount
     while quantity > count
     @items << title
     count += 1
-  end
+    end
   end
 
   def apply_discount
