@@ -5,9 +5,8 @@ class CashRegister
 attr_accessor :total, :discount
 
 
-  def initialize
-    @total = 0
-    @discount = Discount.new(discount)
+  def initialize(number)
+    @discount = number
   end
 
   def cash_register
