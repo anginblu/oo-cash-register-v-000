@@ -23,8 +23,8 @@ attr_accessor :total, :discount
     @total += price * quantity
     count = 1
     while quantity > count
-    @items << title
-    count += 1
+      @items << title
+      count += 1
     end
   end
 
