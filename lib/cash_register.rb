@@ -6,7 +6,7 @@ attr_accessor :total, :discount
 
 
   def initialize(number = 0)
-    @discount = number
+    @total = number
   end
 
   def cash_register
