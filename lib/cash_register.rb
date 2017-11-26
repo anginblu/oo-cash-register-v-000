@@ -25,7 +25,7 @@ attr_accessor :total, :discount
 
   def apply_discount
     if @discount > 0
-      @total = @total * .8
+      @total = @total * 0.8
     else
       "There is no discount to apply."
     end
