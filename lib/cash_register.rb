@@ -18,4 +18,6 @@ attr_accessor :total, :discount
     CashRegister.new(20)
   end
 
+  def add_item(title, price)
+
 end
