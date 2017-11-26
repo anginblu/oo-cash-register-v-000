@@ -24,5 +24,7 @@ attr_accessor :total, :discount
   end
 
   def apply_discount
+    if @discount > 0
+      @total = @total * .8
 
 end
